@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-const API = 'http://localhost:8080/api';
+
+const API = 'https://preorder-pickup-management.onrender.com/api';
 const blankMenu = { name: '', category: 'Food', price: '', available: true };
 const blankOrder = { customerName: '', phone: '', itemName: '', quantity: 1, pickupTime: '', status: 'PLACED', notes: '' };
 const statuses = ['PLACED','CONFIRMED','PREPARING','READY','PICKED_UP','CANCELLED'];
